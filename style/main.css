@@ -7,13 +7,24 @@
 :root{
     --vermelho:#b30808;
     --preta:#141414;
+    --branco:#fff;
+    --cinza:#aaa;
 }
 
-body{
- background: var(--preta);
- font-family: 'Times New Roman', Times, serif;
- color: white;
+header{
+    background-color: var(--preta);
 }
+
+section{
+    background-color: var(--preta);
+    color: var(--cinza);
+}
+
+
+
+body{
+    background-color: var(--preta);
+  }
 
 header .container{
     display: flex;
@@ -32,7 +43,7 @@ header .logo{
 
 header nav a {
     text-decoration: none;
-    color: #aaa;
+    color: var(--cinza);
     margin-right: 10px;
 }
 
@@ -59,12 +70,14 @@ header nav a:hover{
 .venda-principal .descricao{
     margin-top: 15px;
     margin-bottom: 45px;
+    color: var(--branco);
 }
 
 .titulo{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--branco);
 }
 
 .botao{
@@ -87,31 +100,26 @@ header nav a:hover{
     margin-right: 8px;
 }
 
-.container{
-    margin-left: 20px;
-}
-
 .venda-principal .container{
     width: 60%;
 }
 
-.box-vendas{
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-
-.box-vendas button{
-    margin-top: 5px;
-    border-radius: 10px;
-}
-
-.box-vendas button img{
-    height: 40px;
-    width: 40px;
-}
-
 .text-center{
     text-align: center;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-item{
+    font-size: 16px;
+    height: 400px;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }

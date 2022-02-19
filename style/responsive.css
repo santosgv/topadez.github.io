@@ -6,38 +6,27 @@
     }
 
     .titulo{
-        padding-top: 100px;
+        padding-top: 10px;
         margin-top: 5%;
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif
     }
     .botao {
-        margin-top: 15px;
+        margin-top: 5px;
         width: 190px;
-        height: 60px;
+        height: 90px;
 
     }
-    .carrosel-vendas{
-        margin-top: 20%;
+
+    .container .botoes{
+        display: flex;
     }
+
 
     .text-center{
         text-align: center;
     }
-
-    .box-vendas{
-        text-align: center;
-        height: 100%;
-        width: 100%;
-        display: block;
-    }
     
-    .box-vendas button{
-        width: 90px;
-        height: 60px;
-        margin-top: 15px;
-        border-radius: 10px;
-    }
 
 }
 
