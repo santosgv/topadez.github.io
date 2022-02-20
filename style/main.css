@@ -11,12 +11,12 @@
     --cinza:#aaa;
 }
 
+
 header{
     background-color: var(--preta);
 }
 
 section{
-    background-color: var(--preta);
     color: var(--cinza);
 }
 
@@ -26,37 +26,17 @@ body{
     background-color: var(--preta);
   }
 
-header .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header .logo{
-    margin-left:50x;
-    color: var(--vermelho);
-    font-family: Arial Black,Times;
-    font-size: 48px;
-
-}
-
 header nav a {
-    text-decoration: none;
-    color: var(--cinza);
     margin-right: 10px;
 }
 
-header nav a:hover{
-    color: #fff;
-}
 
 /* produtos principal */
 
 .venda-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%),url('/acessts/img/img4.jpg');
-    height: 400px;
+    height: 700px;
     background-size:cover;
 
     display: flex;
@@ -108,6 +88,8 @@ header nav a:hover{
     text-align: center;
 }
 
+/* carrosel */
+
 .carousel-item img{
     height: 100%;
     width: 100%;
@@ -122,4 +104,25 @@ header nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+
+
+div .card{
+    padding: 5px;
+    margin: 10px;
+    color: var(--cinza);
+    align-items: center;
+    
+}
+
+div .card > img{
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.card s{
+    color: var(--vermelho);
 }

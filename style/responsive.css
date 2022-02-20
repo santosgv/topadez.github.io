@@ -1,5 +1,10 @@
 @media screen and (max-width:700px){
 
+    #logo{
+        display: none;
+    }
+
+    
     header .container{
         display: flex;
         flex-direction: column;
@@ -22,11 +27,10 @@
         display: flex;
     }
 
-
-    .text-center{
-        text-align: center;
+    div .row{
+        justify-content: center;
     }
-    
+
 
 }
 
