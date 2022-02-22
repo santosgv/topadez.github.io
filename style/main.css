@@ -127,3 +127,8 @@ div .card > img{
 .card s{
     color: var(--vermelho);
 }
+
+
+.card p{
+    color: var(--vermelho);
+}
