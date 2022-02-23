@@ -27,9 +27,11 @@
     }
 
     div .card{
-        border: 1px;
-        padding: 0px;
-        margin: 5px;
+        padding: 5px;
+        margin: 10px;
+        color: var(--main-bg-primary);
+        align-items: center;
+        border-radius:20px;
     }
 
     div .card > img{
