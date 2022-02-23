@@ -22,6 +22,24 @@
         display: flex;
     }
 
+    .botao-comprar{
+        background-color: var(--branco);
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        margin-right: 15px;
+        font-size: 12px;
+        cursor: pointer;
+        transition: .3s ease all;
+    }
+    
+    .botao-comprar:hover{
+        background-color: var(--cinza);
+    }
+    
+    
+    
+
     div .row{
         justify-content: center;
     }
