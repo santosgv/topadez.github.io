@@ -27,7 +27,7 @@
     }
 
     div .card{
-        width: 20rem;
+        border: 1px;
         padding: 0px;
         margin: 5px;
     }
