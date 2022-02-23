@@ -157,3 +157,45 @@ div .card > img{
 .card p{
     color: var(--vermelho);
 }
+
+.modal-header{
+    align-items: center;
+    background-color: var(--preta);
+    color:var(--branco);
+}
+
+.modal-body {
+    background-color: var(--preta);
+    color:var(--branco);
+}
+
+.modal-footer{
+    background-color: var(--preta);
+    color:var(--branco);
+}
+
+.form-modal div{
+    padding: 5px;
+}
+
+.rodape{
+    padding-top: 15px;
+  }
+  
+footer{
+    background: var(--preta);
+}
+
+    footer  p {
+        align-items: center;
+      color: var(--branco);
+      display:inline;
+    }
+
+    footer a{
+        color: var(--cinza);
+    }
+  
+    footer a:hover{
+        color: var(--branco);
+    }

@@ -18,7 +18,6 @@
               <a id="logo" class="navbar-brand" href="#"><img src="acessts/img/logo.png" height="80px" alt="flixdopreco"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
@@ -42,7 +41,7 @@
                             <img src="https://img.icons8.com/external-others-iconmarket/64/fa314a/external-cart-cyber-monday-others-iconmarket-4.png" height="35px"/>
                             comprar
                         </button>
-                        <button role="button"  class="botao">
+                        <button role="button"  class="botao" data-toggle="modal" data-target="#ExemploModalCentralizado">
                             <img src="https://img.icons8.com/external-bearicons-glyph-bearicons/64/fa314a/external-Email-essential-collection-bearicons-glyph-bearicons.png" height="35px"/>
                             Notificar
                         </button>
@@ -227,16 +226,53 @@
     </div>
   </div>
     </section>
-  
     <section id="...">
         <div class="container-fluid">
         <h3 class="text-center">...</h3>
     </div>
     </section>
+    <!-- Modal -->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado">Receba as melhores Promoçoes Por email</h5>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container form-modal">
+          <h3>Cadastro de email</h3>
+          <form target="_blank" action="https://formsubmit.co/santosgomesv@gmail.com" method="POST">
+            <div class="form-group">
+              <div class="form-row">
+                <div class="col">
+                  <input type="text" name="name" class="form-control" placeholder="Nome Completo" required>
+                </div>
+                <div class="col">
+                  <input type="email" name="email" class="form-control" placeholder="Email" required>
+                </div>
+              </div>
+            </div>          
+        </div>
+        </body>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-lg btn-dark btn-block" data-dismiss="modal">Fechar</button>
+        <button type="submit" class="btn btn-lg btn-danger btn-block">Enviar</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
     </main>
+    <footer class="container-fluid text-center rodape">
+      <p>© Copyright 2022</p>
+      <p> desenvolvido por <a href="https://santosgv.github.io/siteoficial.github.oi/">https://santosgv.github.io/siteoficial.github.oi/</a></p>
+    </footer>
+    <script src="js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
- <script src="js/olw/jquery.min.js"></script>
- <script src="js/olw/owl.carousel.min.js"></script>
- <script src="/js/olw/setup.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
