@@ -108,6 +108,10 @@ header nav a {
 }
 
 
+div .row{
+    justify-content: center;
+}
+
 
 div .card{
     padding: 5px;
