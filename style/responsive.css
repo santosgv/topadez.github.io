@@ -26,6 +26,12 @@
         justify-content: center;
     }
 
+    div .card{
+        width: 20rem;
+        padding: 0px;
+        margin: 5px;
+    }
+
 
 }
 
