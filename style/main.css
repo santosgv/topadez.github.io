@@ -36,10 +36,9 @@ header nav a {
 
 .venda-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%),url('../acessts/img/img1.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%),url('../acessts/img/vendaprincipal1.png');
     height: 700px;
     background-size:cover;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +70,16 @@ header nav a {
     cursor: pointer;
     transition: .3s ease all;
 }
+
+.botao a{
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.botao a:hover{
+    color: var(--preta);
+}
+
 
 .botao:hover{
     background-color: white;
